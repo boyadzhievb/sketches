@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none" stroke="#294baa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Node Network Logo — inspired by the connected-dot molecular structures -->
+  <!-- Central diamond frame -->
+  <line x1="100" y1="30" x2="170" y2="100"/>
+  <line x1="170" y1="100" x2="100" y2="170"/>
+  <line x1="100" y1="170" x2="30" y2="100"/>
+  <line x1="30" y1="100" x2="100" y2="30"/>
+  <!-- Cross braces -->
+  <line x1="100" y1="30" x2="100" y2="170"/>
+  <line x1="30" y1="100" x2="170" y2="100"/>
+  <!-- Inner diamond -->
+  <line x1="100" y1="65" x2="135" y2="100"/>
+  <line x1="135" y1="100" x2="100" y2="135"/>
+  <line x1="100" y1="135" x2="65" y2="100"/>
+  <line x1="65" y1="100" x2="100" y2="65"/>
+  <!-- Diagonal spokes -->
+  <line x1="55" y1="55" x2="145" y2="145"/>
+  <line x1="145" y1="55" x2="55" y2="145"/>
+  <!-- Outer corner nodes -->
+  <circle cx="100" cy="30" r="7" fill="#fff" stroke="#294baa" stroke-width="2.2"/>
+  <circle cx="170" cy="100" r="7" fill="#fff" stroke="#294baa" stroke-width="2.2"/>
+  <circle cx="100" cy="170" r="7" fill="#fff" stroke="#294baa" stroke-width="2.2"/>
+  <circle cx="30" cy="100" r="7" fill="#fff" stroke="#294baa" stroke-width="2.2"/>
+  <!-- Diagonal nodes -->
+  <circle cx="55" cy="55" r="5" fill="#294baa"/>
+  <circle cx="145" cy="55" r="5" fill="#294baa"/>
+  <circle cx="145" cy="145" r="5" fill="#294baa"/>
+  <circle cx="55" cy="145" r="5" fill="#294baa"/>
+  <!-- Inner diamond nodes -->
+  <circle cx="100" cy="65" r="4.5" fill="#fff" stroke="#294baa" stroke-width="2"/>
+  <circle cx="135" cy="100" r="4.5" fill="#fff" stroke="#294baa" stroke-width="2"/>
+  <circle cx="100" cy="135" r="4.5" fill="#fff" stroke="#294baa" stroke-width="2"/>
+  <circle cx="65" cy="100" r="4.5" fill="#fff" stroke="#294baa" stroke-width="2"/>
+  <!-- Center node -->
+  <circle cx="100" cy="100" r="6" fill="#294baa"/>
+  <circle cx="100" cy="100" r="3" fill="#fff"/>
+</svg>

@@ -1,0 +1,10 @@
+extracted_doodles/
+_figma-export/
+*.py[cod]
+__pycache__/
+.DS_Store
+*.zip
+claude.prompt
+figma.prompt
+/IMG_*.jpeg
+/IMG_*.jpg
