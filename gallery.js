@@ -61,31 +61,6 @@
     if (e.key === 'ArrowRight' && currentIndex < allItems.length - 1) showItem(currentIndex + 1);
   });
 
-  // ─── Logo Concepts ───
-
-  document.querySelectorAll('.logo-gallery .art-card').forEach(card => {
-    card.addEventListener('click', () => {
-      const title = card.dataset.title;
-      const category = card.dataset.category;
-      const year = card.dataset.year;
-      const index = card.dataset.index;
-      const svg = card.querySelector('.doodle');
-      const clone = svg.cloneNode(true);
-      const contentHTML = `
-        <div class="lightbox-paper">${clone.outerHTML}</div>
-        <div class="lightbox-caption">
-          <span>${index}</span>
-          <div>
-            <h2>${title}</h2>
-            <p>${category} · logo concept · ${year}</p>
-          </div>
-        </div>
-      `;
-      collectItems();
-      openLightbox(card, contentHTML);
-    });
-  });
-
   // ─── Extracted Doodles ───
 
   const extractedGallery = document.getElementById('extracted-gallery');
